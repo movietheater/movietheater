@@ -48,7 +48,7 @@ time = 120
 ```
 
 ## Build:
-Execute the `build.bat` file to build a single executable. The executable will be located in the dist folder and the batch file will delete all the temp files used while building.
+Execute the `build.py` file to build a single executable. The executable will be located in the **dist** folder.
 
 ## Credits:
 * Depends on this project (https://www.omdbapi.com) for the media information
