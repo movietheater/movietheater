@@ -7,14 +7,14 @@ A simple and lightweight interface for movies stored locally or on network share
 ![alt text](https://i.imgur.com/3nmawYo.gif)
 
 ## Features:
+* Play Movie directly from the browser using MediaPlayer (https://github.com/movietheater/mediaplayer) together with MovieTheater
 * Automatically parse torrent file names like `The.Best.Movie.Ever.2021.2160p.UHD.n0t0rr3nt-[nogrp]`
 * Automatically obtains information about the media and stores it inside database
 * Automatically removes deleted media from database to ensure an updated webpage
 
 ## Requirements:
 * Free API key from (https://www.omdbapi.com) to obtain information about the media
-* VLC Media Player (https://www.videolan.org/vlc) which is being used in the background for playing media
-* MediaPlayer (https://github.com/rootm0s/MediaPlayer) for playing media in fullscreen with a press of a button from the webpage
+* MediaPlayer (https://github.com/movietheater/mediaplayer) for playing media in fullscreen with a press of a button from the webpage
 
 ## Installation:
 ```python
