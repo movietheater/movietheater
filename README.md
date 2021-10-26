@@ -8,8 +8,9 @@ A simple and lightweight interface for movies stored locally or on network share
 
 ## Features:
 * Play movies directly from the webpage
+* Search content using either movie name, year, genre, plot, actors or resolution.
 * Automatically parse torrent file names like `The.Best.Movie.Ever.2021.2160p.UHD.n0t0rr3nt-[nogrp]`
-* Automatically obtains information about the media and stores it inside database
+* Automatically obtains information about the media and stores it inside database _(plot, imdb score, actors, trailer etc.)_
 * Automatically removes deleted media from database to ensure an updated webpage
 
 ## Requirements:
