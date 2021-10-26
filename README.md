@@ -7,7 +7,7 @@ A simple and lightweight interface for movies stored locally or on network share
 ![alt text](https://i.imgur.com/3nmawYo.gif)
 
 ## Features:
-* Play Movie directly from the browser using MediaPlayer (https://github.com/movietheater/mediaplayer) together with MovieTheater
+* Play movies directory from the webpage
 * Automatically parse torrent file names like `The.Best.Movie.Ever.2021.2160p.UHD.n0t0rr3nt-[nogrp]`
 * Automatically obtains information about the media and stores it inside database
 * Automatically removes deleted media from database to ensure an updated webpage
