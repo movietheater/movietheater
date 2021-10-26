@@ -60,8 +60,8 @@ class product:
 		
 		try:
 			ctypes.windll.shell32.ShellExecuteW(None, "open", 'pyinstaller',
-															'--icon "icon.ico" --onefile --noconsole {file} --version-file={pi_file}'.format(file=self.py_file,
-															pi_file=self.pi_file), None, 0)
+							'--icon "icon.ico" --onefile --noconsole {file} --version-file={pi_file}'.format(file=self.py_file,
+							pi_file=self.pi_file), None, 0)
 		except Exception:
 			return False
 		
@@ -76,9 +76,9 @@ class product:
 		Delete all the temporary files created while building
 		"""
 		cmds = ["del {pi_file} /S /Q >nul".format(pi_file=self.pi_file),
-				"del {py_file}.spec /S /Q >nul".format(py_file=self.py_file.strip(".py")),
-				"rmdir build /S /Q >nul",
-				"rmdir __pycache__ /S /Q >nul"]
+			"del {py_file}.spec /S /Q >nul".format(py_file=self.py_file.strip(".py")),
+			"rmdir build /S /Q >nul",
+			"rmdir __pycache__ /S /Q >nul"]
 
 		for cmd in cmds:
 			os.system(cmd)
