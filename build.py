@@ -60,7 +60,7 @@ class product:
 		
 		try:
 			ctypes.windll.shell32.ShellExecuteW(None, "open", 'pyinstaller',
-							'--icon "icon.ico" --onefile --noconsole {file} --version-file={pi_file}'.format(file=self.py_file,
+							'--icon "icon.ico" --onefile {file} --version-file={pi_file}'.format(file=self.py_file,
 							pi_file=self.pi_file), None, 0)
 		except Exception:
 			return False
