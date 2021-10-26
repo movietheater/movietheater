@@ -1,7 +1,7 @@
 # MovieTheater
 ![python3_support](https://img.shields.io/badge/Python-3-blue.svg "Python 3")
 
-A simple and lightweight interface for movies stored locally or on network share(s). The webpage is able to run on either a HTTP server or locally since we're only using html, css and jquery.
+A simple and lightweight interface for movies stored locally or on network share(s).
 
 ---
 ![alt text](https://i.imgur.com/3nmawYo.gif)
