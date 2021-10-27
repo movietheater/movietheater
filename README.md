@@ -7,11 +7,11 @@ A simple and lightweight interface for movies stored locally or on network share
 ![alt text](https://i.imgur.com/3nmawYo.gif)
 
 ## Features:
-* Play movies directly from the webpage
-* Search for movies using either name, year, genre, plot, actors or resolution.
-* Automatically parse torrent file names like `The.Best.Movie.Ever.2021.2160p.UHD.n0t0rr3nt-[nogrp]`
-* Automatically obtains information about the movie and stores it inside database _(plot, poster, imdb score, actors, genre, runtime and trailer)_
-* Automatically removes deleted movies from database to ensure an updated webpage
+- [x] Play movies directly from the webpage
+- [x] Search for movies using either name, year, genre, plot, actors or resolution.
+- [x] Automatically parse torrent file names like `The.Best.Movie.Ever.2021.2160p.UHD.n0t0rr3nt-[nogrp]`
+- [x] Automatically obtains information about the movie and stores it inside database _(plot, poster, imdb score, actors, genre, runtime and trailer)_
+- [x] Automatically removes deleted movies from database to ensure an updated webpage
 
 ## Requirements:
 * Free API key from (https://www.omdbapi.com) to obtain information about the media
@@ -47,8 +47,11 @@ path =
 time = 120
 ```
 
-## Build:
+## Build (optional):
 Execute the `build.py` file to build a single executable. The executable will be located in the **dist** folder.
+
+## Running:
+Make sure the [configuration file](#configuration) is updated with correct information and have followed the [installation steps](#installation). You should now be ready to run `movietheater.py` or the executable `movietheater.exe` created from running `build.py`
 
 ## Credits:
 * Depends on this project (https://www.omdbapi.com) for the media information
