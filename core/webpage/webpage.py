@@ -7,19 +7,8 @@ import os
 
 """
 TODO
-
- [] Change the modal background-color to little bit darker so it looks better
-    when searching for a specific movie and opens the modal up.
-
  [] When a trailer is played and the end-user press on the Watch trailer again, hide
     the video and pause it.
-	
- [] Add following code when either  pressing button 'Watch Movie' or
-    'Watch Trailer'
- 
-	<div class="spinner-border text-light" role="status">
-	  <span class="sr-only">Loading...</span>
-	</div>
 """
 
 class template:
