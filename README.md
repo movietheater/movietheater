@@ -15,7 +15,7 @@ A simple and lightweight interface for movies stored locally or on network share
 
 ## Requirements:
 * Free API key from (https://www.omdbapi.com) to obtain information about the media
-* MediaPlayer (https://github.com/movietheater/mediaplayer) for playing media in fullscreen with a press of a button from the webpage
+* MediaPlayer (https://github.com/movietheater/mediaplayer) for playing media in fullscreen with a press of a button from the webpage.
 
 ## Installation:
 ```python
