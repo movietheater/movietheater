@@ -52,7 +52,7 @@ time = 120
 Execute the `build.py` file to build a single executable. The executable will be located in the **dist** folder.
 
 ## Running:
-Make sure the [configuration file](#configuration) is updated with correct information and have followed the [installation steps](#installation). You should now be ready to run `movietheater.py` or the executable `movietheater.exe` created from running `build.py`
+Make sure the [requirements](#requirements) are met and [configuration file](#configuration) is updated with correct information and have followed the [installation step](#installation). You should now be ready to run `movietheater.py` or the executable `movietheater.exe` created from running `build.py`
 
 ## Credits:
 * Depends on this project (https://www.omdbapi.com) for the media information
