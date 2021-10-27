@@ -22,15 +22,16 @@ A simple and lightweight interface for movies stored locally or on network share
 pip install requirements.txt
 ```
 ## Configuration:
+This is a example of a basic configuration file, change to your settings before running.
 ```ini
 # API key goes here
 [API]
-omdbapi = 
+omdbapi = 0x3x4mpl3k3y
 
 # Example paths:
 #   path = F:\Movies, \\server01\share01\movies
 [DIRECTORY]
-path = 
+path = F:\Movies
 
 # Leave it blank to save database in current folder or
 # set full path to directory where to save it.
